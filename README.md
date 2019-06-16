@@ -4,12 +4,12 @@ Portfolio developed by H. Steven Shaw
 
 In this project, you will find my newer portfolio, all done in React this time.<br>
 
-Here's my old portfolio, have a look: [https://hunterstevenshaw.com](https://hunterstevenshaw.com)
+Here's my old portfolio, have a look: [https://hunterstevenshaw.com](https://hunterstevenshaw.com).
 
 ### `Live Preview`
 
 This opens my new portfolio, all done in React this time.<br>
-Open [https://hunterstevenshaw.com](link comming soon) to view it in the browser.<br>
+Open [https://hunterstevenshaw.com](linkcommingsoon) to view it in the browser.<br>
 
 Will have more information upon creating and developing.<br>
 
@@ -27,7 +27,7 @@ More information, upon development.
 
 **Note: No matter what I currently know, I love to problem solve and learn everyday! Meaning, learning newer technologies and skills is no problem to me, because we live in a world of Google, anything is possible!**
 
-### 'About Me`
+### `About Me`
 
 Below is a description and summary about me.<br>
 
