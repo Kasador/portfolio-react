@@ -7,6 +7,7 @@ import "animate.css/animate.min.css";
 import Intro from './components/Intro/Intro';
 import Nav from './components/Nav/Nav';
 import About from './components/About/About';
+import Projects from './components/Projects/Projects';
 
 const FadeIn = styled.div`animation: 2s ${keyframes`${fadeIn}`}`;
 
@@ -20,6 +21,7 @@ function Portfolio() {
                 </FadeIn>
                 <ScrollAnimation animateIn="fadeIn">
                     <About />
+                    <Projects />
                 </ScrollAnimation>
             </div>
         </div>
