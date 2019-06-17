@@ -7,7 +7,7 @@ import "animate.css/animate.min.css";
 import Intro from './components/Intro/Intro';
 import Nav from './components/Nav/Nav';
 
-const FadeIn = styled.div`animation: 3s ${keyframes`${fadeIn}`}`;
+const FadeIn = styled.div`animation: 2s ${keyframes`${fadeIn}`}`;
 
 function Portfolio() {
     return (

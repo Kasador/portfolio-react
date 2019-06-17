@@ -1,9 +1,9 @@
 import React from 'react';
 import './Nav.css';
-import { fadeInLeft } from 'react-animations';
+import { bounceInLeft } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 
-const FadeIn = styled.div`animation: 2s ${keyframes`${fadeInLeft}`}`;
+const FadeIn = styled.div`animation: 1.5s ${keyframes`${bounceInLeft}`}`;
 
 function Nav() {
     return (

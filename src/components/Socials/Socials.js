@@ -1,9 +1,9 @@
 import React from 'react';
 import './Socials.css';
-import { fadeInUp } from 'react-animations';
+import { bounceInUp } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 
-const FadeIn = styled.div`animation: 2s ${keyframes`${fadeInUp}`}`;
+const FadeIn = styled.div`animation: 1.5s ${keyframes`${bounceInUp}`}`;
 
 function Socials() {
     return (
