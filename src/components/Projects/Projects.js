@@ -17,8 +17,11 @@ function About() {
         <div className="Projects">
         <ScrollAnimation animateIn="fadeIn" duration={1}>
             <div className="ProjectsBanner">
-                <h1 className="ProjectsHeaders">About</h1>
+                <h1 className="ProjectsHeaders">Projects</h1>
                 <img src={Forest} alt="mountain art banner" className="ForestOneBanner" />
+            </div>
+            <div className="ProjectsContent">
+
             </div>
         </ScrollAnimation>
         </div>
