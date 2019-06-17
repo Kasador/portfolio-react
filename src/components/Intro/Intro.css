@@ -1,0 +1,25 @@
+.Intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    flex-direction: column;
+}
+.IntroWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Me {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 5px solid #222;
+    margin: 20px;
+}
+.Typewriter__wrapper, .Typewriter__cursor {
+    font-size: 5rem;
+}
+.TypeEffect {
+    margin: 20px;
+}

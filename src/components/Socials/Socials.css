@@ -1,0 +1,14 @@
+.Socials {
+    margin: 20px;
+}
+.Icon {
+    font-size: 5rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #222;
+
+    transition: color .3s;
+}
+.Icon:hover {
+    color: #E76768;
+}

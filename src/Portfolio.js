@@ -1,29 +1,27 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './Portfolio.css';
 import styled, { keyframes } from 'styled-components';
-import { fadeInDown } from 'react-animations';
+import { fadeIn } from 'react-animations';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
-import Me from './images/me.jpeg';
+import Intro from './components/Intro/Intro';
+import Nav from './components/Nav/Nav';
 
-const FadeIn = styled.div`animation: 1s ${keyframes`${fadeInDown}`}`;
+const FadeIn = styled.div`animation: 3s ${keyframes`${fadeIn}`}`;
 
-class Portfolio extends Component {
-    render() {
-        return (
-            <div>
+function Portfolio() {
+    return (
+        <div className="Portfolio">
+            <Nav />
+            <div className="MainContent">
                 <FadeIn>
-                    <h1>I'm Steven.</h1>
+                    <Intro />
                 </FadeIn>
-                <ScrollAnimation animateIn="fadeIn">
-                    <p>testtesttesttesttesttesttesttesttesttesttests</p>
-                    <p>testtesttesttesttesttesttesttesttesttesttests</p>
-                    <p>testtesttesttesttesttesttesttesttesttesttests</p>
-                    <img src={Me} alt="picture of me" />
-                </ScrollAnimation>
+                {/* <ScrollAnimation animateIn="fadeIn">
+                </ScrollAnimation> */}
             </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default Portfolio;
