@@ -24,3 +24,21 @@
 .ForestBanner {
     width: 100%;
 }
+.AboutHeaders {
+    position: relative;
+    width: 100%;
+    left: 80%;
+
+    font-size: 3rem;
+    background-color: #222;
+    color: #FAFBD2;
+    padding: 10px 15px;
+    text-align: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.AboutBanner {
+    display: flex;
+    flex-direction: column;
+    overflow-X: hidden;
+}
