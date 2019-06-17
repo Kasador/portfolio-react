@@ -34,7 +34,7 @@ function Intro() {
             <FadeIn>
                 <div className="CallToAction">
                     <span>See What I Do</span>
-                    <i class="fas fa-chevron-down"></i>
+                    <i className="fas fa-chevron-down"></i>
                 </div>
             </FadeIn>
             </div>

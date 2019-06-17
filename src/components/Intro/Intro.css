@@ -4,6 +4,7 @@
     justify-content: center;
     height: 90vh;
     flex-direction: column;
+    margin-bottom: 95px;
 }
 .IntroWrapper {
     display: flex;

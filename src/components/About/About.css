@@ -1,0 +1,26 @@
+.About {
+    color: #222;
+    text-align: center;
+}
+.AboutContent {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AboutText {
+    color: #222;
+    text-align: left;
+}
+.AboutIcons {
+    margin: 5px;
+}
+.AboutText p {
+    text-indent: 2rem;
+    font-size: 2rem;
+    padding: 5px 15px;
+}
+.ForestBanner {
+    width: 100%;
+}

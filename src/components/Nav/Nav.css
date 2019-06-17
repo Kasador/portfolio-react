@@ -4,6 +4,7 @@
     background-color: #E76768;
     height: 100vh;
     border-right: 5px solid #222;
+    z-index: 999;
 }
 .NavItems {
     display: flex;
@@ -22,7 +23,7 @@
     cursor: pointer;
     color: #222;
 
-    transition: color .2s;
+    transition: color .3s;
 }
 .NavItems li:hover {
     color: #FAFAD2;
@@ -30,4 +31,34 @@
 .NavItems i {
     padding: 5px;
     font-size: 3rem;
+}
+.LanguagesPosition {
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+}
+.LanguagesWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+
+    transition: color .3s;
+}
+.Languages:hover {
+    color: #FAFAD2;
+    cursor: pointer;
+}
+.Languages img {
+    width: 50px;
+    height: 33px;
+    border: 2px solid #222;
+    border-radius: 10px;
+    margin: 5px;
 }
