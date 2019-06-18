@@ -3,34 +3,68 @@ import './Nav.css';
 import { bounceInLeft, fadeIn } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 import Usa from '../../images/usa.png';
-import Spain from '../../images/spain.png'
+import Spain from '../../images/spain.png';
+import { Link, animateScroll as scroll } from "react-scroll";
 
-const BouceLeft = styled.div`animation: 1.5s ${keyframes`${bounceInLeft}`}`;
+const BounceLeft = styled.div`animation: 1.5s ${keyframes`${bounceInLeft}`}`;
 const FadeIn = styled.div`animation: 2.3s ${keyframes`${fadeIn}`}`;
 
 function Nav() {
+
     return (
         <div className="Nav">
-            <BouceLeft>
+            <BounceLeft>
             <ul className="NavItems">
-                <li>
-                    <i className="fas fa-home"></i>
-                    Home
-                </li>
-                <li>
-                    <i className="fas fa-address-card"></i>
-                    About
-                </li>
-                <li>
-                    <i className="fas fa-project-diagram"></i>
-                    Projects
-                </li>
-                <li>
-                    <i className="fas fa-id-card-alt"></i>
-                    Contact
-                </li>
+                <Link 
+                    activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-40}
+                    duration= {1000} >
+                        <div className="NavLinks">
+                            <i className="fas fa-home"></i>
+                            Home
+                        </div>
+                </Link>
+                <Link
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-40}
+                    duration= {1000} >
+                        <div className="NavLinks">
+                            <i className="fas fa-address-card"></i>
+                            About
+                        </div>
+                </Link>
+                <Link
+                    activeClass="active"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    offset={-40}
+                    duration= {500} >
+                        <div className="NavLinks">
+                            <i className="fas fa-project-diagram"></i>
+                            Projects
+                        </div>
+                </Link>
+                <Link
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-40}
+                    duration= {500} >
+                        <div className="NavLinks">
+                            <i className="fas fa-id-card-alt"></i>
+                            Contact
+                        </div>
+                </Link>
             </ul>
-            </BouceLeft>
+            </BounceLeft>
             <FadeIn>
             <div className="LanguagesPosition">
                 <div className="LanguagesWrapper">

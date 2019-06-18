@@ -6,13 +6,14 @@ import Typewriter from 'typewriter-effect';
 import Socials from '../Socials/Socials';
 import { bounceInUp, bounceInDown } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const FadeIn = styled.div`animation: 1.5s ${keyframes`${bounceInUp}`}`;
 const BounceIn = styled.div`animation: 1.5s ${keyframes`${bounceInDown}`}`;
 
 function Intro() {
     return (
-        <div className="Intro">
+        <div className="Intro" id="home">
             <div className="IntroWrapper">
                 <BounceIn>
                 <img src={Me} alt="picture of me" className="Me" />
@@ -32,10 +33,19 @@ function Intro() {
             </div>
             <div className="CallToActionWrapper">
             <FadeIn>
-                <div className="CallToAction">
-                    <span>See What I Do</span>
-                    <i className="fas fa-chevron-down"></i>
-                </div>
+                <Link 
+                    className="NavLinks"
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-40}
+                    duration= {1000} >
+                        <div className="CallToAction">
+                            <span>See What I Do</span>
+                            <i className="fas fa-chevron-down"></i>
+                        </div>
+                </Link>
             </FadeIn>
             </div>
         </div>

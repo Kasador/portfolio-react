@@ -14,7 +14,7 @@ const Default = props => <Responsive {...props} minWidth={768} />;
 function About() {
     return (
         <Desktop>
-        <div className="Projects">
+        <div className="Projects" id="projects">
         <ScrollAnimation animateIn="fadeIn" duration={1}>
             <div className="ProjectsBanner">
                 <h1 className="ProjectsHeaders">Projects</h1>
