@@ -11,7 +11,7 @@
     left: 80%;
 
     font-size: 3rem;
-    background-color: #E76868;
+    background-color: #222;
     color: #FAFBD2;
     padding: 10px 15px;
     text-align: left;
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E76868;
+    background-color: #222;
 }
 .ContactForm {
     display: flex;
@@ -47,7 +47,7 @@
     margin: 15px;
     background-color: #FAFBD2;
     border-radius: 10px;
-    border: 2px solid #222;
+    border: 2px solid #E76768;
 }
 .ContactInputs:focus {
     outline: none;
@@ -60,7 +60,7 @@
     padding: 5px 10px;
     background-color: #FAFBD2;
     border-radius: 10px;
-    border: 2px solid #222;
+    border: 2px solid #E76768;
 }
 #ContactTextArea:focus {
     outline: none;
@@ -69,16 +69,17 @@
     font-size: 2rem;
     padding: 5px 10px;
     border-radius: 10px;
-    background-color: #FAFBD2;
-    color: #222;
+    background-color: #E76768;
+    color: #FAFBD2;
     cursor: pointer;
-    border: 2px solid #222;
+    border: 2px solid #E76768;
+    transform: translateX(50px, 20px);
 
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 .ContactSubmit:hover {
-    color: #FAFBD2;
-    background-color: #222;
+    border-color: #CF5C5D;
+    background-color: #CF5C5D
 }
 .ContactSubmit:focus {
     outline: none;

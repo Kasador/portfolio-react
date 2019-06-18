@@ -16,7 +16,7 @@ function Projects() {
     return (
         <Desktop>
         <div className="Projects" id="projects">
-        <ScrollAnimation animateIn="fadeIn" duration={1}>
+        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" duration={1}>
             <div className="ProjectsBanner">
                 <h1 className="ProjectsHeaders">Projects</h1>
                 <img src={Forest} alt="mountain art banner" className="ForestOneBanner" />
@@ -31,7 +31,7 @@ function Projects() {
                             <button className="ProjectsBtns">GitHub Link <i class="fab fa-github-alt"></i></button>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn='bounceInRight' duration={1.8}>
+                    <ScrollAnimation animateIn='bounceInLeft' duration={1.8}>
                         <div className="ProjectsTextWrapper">
                             <p className="ProjectsText">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </p>
                             <p className="ProjectsText">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </p>
@@ -69,7 +69,7 @@ function Projects() {
                             <button className="ProjectsBtns">GitHub Link <i class="fab fa-github-alt"></i></button>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn='bounceInRight' duration={1.8}>
+                    <ScrollAnimation animateIn='bounceInRight' duration={2.4}>
                         <div className="ProjectsTextWrapper">
                             <p className="ProjectsText">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </p>
                             <p className="ProjectsText">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </p>

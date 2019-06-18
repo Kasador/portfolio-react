@@ -1,0 +1,48 @@
+.BackTop {
+    position: absolute;
+    transform: translate(50px, -150px);
+}
+.BackToTop {
+    font-size: 3rem;
+    cursor: pointer;
+    border: 5px solid #E76768;
+    color: #FAFAD2;
+    background-color: #E76768;
+    padding: 0px 10px;
+    border-radius: 10px;
+
+    transition: all 0.2s;
+}
+.BackToTop:hover {
+    border-color: #CF5C5D;
+    background-color: #CF5C5D;
+}
+.BackTopSocials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BackTopIcon {
+    font-size: 2.5rem;
+    color:#E76768;
+    background-color: #FAFAD2;
+    border: 2px solid #E76768;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    transition: all 0.2s;
+}
+.BackTopIcon:hover {
+    color: #FAFAD2;
+    background-color: #CF5C5D;
+}
+.BT1 {
+    transform: translate(-70px, -20px);
+}
+.BT2 {
+    transform: translate(-50px, 30px);
+}
+.BT3 {
+    transform: translate(-30px, -20px);
+}

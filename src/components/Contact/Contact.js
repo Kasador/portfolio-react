@@ -15,23 +15,25 @@ function Contact() {
     return (
         <div className="Contact" id="contact">
             <div className="ContactBanner">
-                <h1 className="ContactHeaders">Contact</h1>
+                <ScrollAnimation animateIn="fadeIn" duration={1}>
+                    <h1 className="ContactHeaders">Contact</h1>
+                </ScrollAnimation>
                 <img src={Forest} alt="forest art banner" className="ForestBanner2" />
             </div>
             <div className="ContactContent">
-            <ScrollAnimation animateIn="fadeIn" duration={1}>
                 <form className="ContactForm">
-                    <div className="ContactPosition">
-                        <div className="ContactInputsWrapper">
-                            <input type="text" name="firstName" placeholder="First Name" className="ContactInputs" />
-                            <input type="text" name="lastName" placeholder="Last Name" className="ContactInputs" />
-                            <input type="email" name="email" placeholder="Email" className="ContactInputs" />
+                    <ScrollAnimation animateIn="fadeIn" duration={1}>
+                        <div className="ContactPosition">
+                            <div className="ContactInputsWrapper">
+                                <input type="text" name="firstName" placeholder="First Name" className="ContactInputs" />
+                                <input type="text" name="lastName" placeholder="Last Name" className="ContactInputs" />
+                                <input type="email" name="email" placeholder="Email" className="ContactInputs" />
+                            </div>
+                            <textarea type="text" name="message" placeholder="Message..." id="ContactTextArea" />
                         </div>
-                        <textarea type="text" name="message" placeholder="Message..." id="ContactTextArea" />
-                    </div>
+                    </ScrollAnimation>
                     <button className="ContactSubmit" type="submit">Submit</button>
                 </form>
-            </ScrollAnimation>
             </div>
         </div>
     );
