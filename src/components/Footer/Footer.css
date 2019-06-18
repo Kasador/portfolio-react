@@ -6,10 +6,29 @@
 }
 .FooterBanner {
     width: 100%;
+    margin: 0 auto;
 }
 .FooterText {
     font-size: 1.3rem;
     text-align: center;
     color: #999;
     margin: 20px;
+}
+.BackToTop {
+    position: absolute;
+    font-size: 3rem;
+    transform: translate(-50px, 0px);
+    color: #222;
+    background-color: #FAFAD2;
+    border-radius: 100%;
+    padding: 15px 20px;
+    cursor: pointer;
+    border: 2px solid #222;
+
+    transition: all 0.3s;
+}
+.BackToTop:hover {
+    color: #FAFAD2;
+    background-color: #222;
+    border-color: #FAFAD2;
 }
