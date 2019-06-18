@@ -1,0 +1,15 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.FooterBanner {
+    width: 100%;
+}
+.FooterText {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #999;
+    margin: 20px;
+}

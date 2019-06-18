@@ -3,6 +3,6 @@ body {
     background-color: lightgoldenrodyellow;
 }
 .active {
-    border-bottom: 5px solid#FAFBD2;
+    border-bottom: 5px solid #FAFBD2;
     transition: all 0.3s;
 }

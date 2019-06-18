@@ -9,6 +9,7 @@ import Nav from './components/Nav/Nav';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 const FadeIn = styled.div`animation: 2s ${keyframes`${fadeIn}`}`;
 
@@ -24,6 +25,7 @@ function Portfolio() {
                     <About />
                     <Projects />
                     <Contact />
+                    <Footer />
                 </ScrollAnimation>
             </div>
         </div>
