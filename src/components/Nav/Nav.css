@@ -13,7 +13,7 @@
     align-content: center;
 }
 .NavLinks {
-    color: #222;
+    color: #FAFAD2;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -25,7 +25,10 @@
     transition: color 0.3s;
 }
 .NavLinks:hover {
-    color: #FAFAD2;
+    color: #222;
+}
+.NavLinks i {
+    padding: 5px;
 }
 .LanguagesPosition {
     position: absolute;
@@ -42,18 +45,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #222;
+    color: #FAFAD2;
 
     transition: color .3s;
 }
 .Languages:hover {
-    color: #FAFAD2;
+    color: #222;
     cursor: pointer;
 }
 .Languages img {
     width: 50px;
     height: 33px;
-    border: 2px solid #222;
+    border: 2px solid #FAFAD2;
     border-radius: 10px;
     margin: 5px;
+
+    transition: all 0.3s;
+}
+.Languages img:hover {
+    border-color: #222;
 }
