@@ -27,6 +27,7 @@
 .ProjectsInfo {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .ProjectsCard {
     display: flex;
@@ -54,13 +55,12 @@
 .ProjectsBtns:hover {
     color: #222;
     background-color: #FAFBD2;
-    border-radius: 20px;
-    width: 300px;
 }
 .ProjectsTextWrapper {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 30px;
 }
 .ProjectsText {
     font-size: 1.5rem;
@@ -68,13 +68,28 @@
     text-indent: 2rem;
     padding: 5px;
 }
-.ProjectsTitles {
+.ProjectsTitlesLeft {
+    position: absolute;
     font-size: 1.5rem;
     color:#FAFBD2;
     background-color: #E76768;
-    width: 150px;
+    width: 200px;
     padding: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    transform: translateX(-30px)
+    text-align: right;
+    z-index: 10;
+    transform: translate(385px, 40px);
+}
+.ProjectsTitlesRight {
+    position: absolute;
+    font-size: 1.5rem;
+    color:#FAFBD2;
+    background-color: #E76768;
+    width: 200px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transform: translate(-190px, 40px);
+    text-align: left;
 }

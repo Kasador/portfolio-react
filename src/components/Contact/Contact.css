@@ -1,0 +1,85 @@
+.ForestBanner2 {
+    width: 100%;
+}
+.ContactBanner {
+    display: flex;
+    flex-direction: column;
+    overflow-X: hidden;
+}
+.ContactHeaders {
+    position: relative;
+    left: 80%;
+
+    font-size: 3rem;
+    background-color: #E76868;
+    color: #FAFBD2;
+    padding: 10px 15px;
+    text-align: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.ContactContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E76868;
+}
+.ContactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.ContactPosition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContactInputsWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ContactInputs {
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    margin: 15px;
+    background-color: #FAFBD2;
+    border-radius: 10px;
+    border: 2px solid #222;
+}
+.ContactInputs:focus {
+    outline: none;
+}
+#ContactTextArea {
+    width: 400px;
+    height: 175px;
+    font-size: 1.5rem;
+    margin: 30px;
+    padding: 5px 10px;
+    background-color: #FAFBD2;
+    border-radius: 10px;
+    border: 2px solid #222;
+}
+#ContactTextArea:focus {
+    outline: none;
+}
+.ContactSubmit {
+    font-size: 2rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #FAFBD2;
+    color: #222;
+    cursor: pointer;
+    border: 2px solid #222;
+
+    transition: all 0.3s;
+}
+.ContactSubmit:hover {
+    color: #FAFBD2;
+    background-color: #222;
+}
+.ContactSubmit:focus {
+    outline: none;
+}

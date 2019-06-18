@@ -16,13 +16,13 @@
     height: 200px;
     border-radius: 100%;
     border: 5px solid #222;
-    margin: 20px;
+    margin: 10px;
 }
 .Typewriter__wrapper, .Typewriter__cursor {
     font-size: 5rem;
 }
 .TypeEffect {
-    margin: 20px;
+    margin: 10px;
 }
 .CallToActionWrapper {
     position: absolute;
