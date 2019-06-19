@@ -79,7 +79,7 @@
 }
 .ContactSubmit:hover {
     border-color: #CF5C5D;
-    background-color: #CF5C5D
+    background-color: #CF5C5D;
 }
 .ContactSubmit:focus {
     outline: none;

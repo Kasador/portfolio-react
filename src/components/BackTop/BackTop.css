@@ -36,6 +36,7 @@
 .BackTopIcon:hover {
     color: #FAFAD2;
     background-color: #CF5C5D;
+    border-color: #CF5C5D;
 }
 .BT1 {
     transform: translate(-70px, -20px);

@@ -11,6 +11,9 @@
     align-items: center;
     flex-direction: column;
     align-content: center;
+    border-radius: 50px;
+    
+    transition: all 0.2s;
 }
 .NavLinks {
     color: #FAFAD2;
@@ -19,13 +22,15 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    font-size: 2rem;
-    margin-top: 40px;
+    font-size: 1.8rem;
+    width: 200px;
+    padding: 15px 0px;
 
-    transition: color 0.3s;
+    transition: all 0.2s;
 }
 .NavLinks:hover {
     color: #222;
+    background-color: #FAFAD2;
 }
 .NavLinks i {
     padding: 5px;
@@ -47,7 +52,7 @@
     align-items: center;
     color: #FAFAD2;
 
-    transition: color .3s;
+    transition: color .2s;
 }
 .Languages:hover {
     color: #222;
@@ -60,8 +65,17 @@
     border-radius: 10px;
     margin: 5px;
 
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 .Languages img:hover {
     border-color: #222;
+}
+.active {
+    background-color: #222;
+
+    transition: all 0.2s;
+}
+.active:hover {
+    background-color: #FAFAD2;
+    border-radius: 50px;
 }

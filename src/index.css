@@ -1,8 +1,5 @@
 body {
     font-family: 'Nunito', sans-serif;
     background-color: lightgoldenrodyellow;
-}
-.active {
-    border-bottom: 5px solid #FAFBD2;
-    transition: all 0.3s;
+    overflow-X: hidden;
 }

@@ -34,7 +34,7 @@ function Intro() {
             <div className="CallToActionWrapper">
             <FadeIn>
                 <Link 
-                    className="NavLinks"
+                    className="NavLinksIntro"
                     activeClass="active"
                     to="about"
                     spy={true}

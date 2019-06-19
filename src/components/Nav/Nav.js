@@ -4,26 +4,25 @@ import { bounceInLeft, fadeIn } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 import Usa from '../../images/usa.png';
 import Spain from '../../images/spain.png';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const BounceLeft = styled.div`animation: 1.5s ${keyframes`${bounceInLeft}`}`;
 const FadeIn = styled.div`animation: 2.3s ${keyframes`${fadeIn}`}`;
 
 function Nav() {
-
     return (
         <div className="Nav">
             <BounceLeft>
             <ul className="NavItems">
-                <Link 
+                <Link
                     activeClass="active"
                     to="home"
                     spy={true}
                     smooth={true}
                     offset={-40}
-                    duration= {1000} >
+                    duration= {1000}>
                         <div className="NavLinks">
-                            <i className="fas fa-home"></i>
+                            <i class="fas fa-tree"></i>
                             Home
                         </div>
                 </Link>
