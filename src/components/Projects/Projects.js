@@ -23,7 +23,7 @@ function Projects() {
             </div>
             <div className="ProjectsContent">
                 <div className="ProjectsInfo">
-                    <ScrollAnimation animateIn='bounceInLeft' duration={2}>
+                    <ScrollAnimation animateIn='bounceInRight' duration={2}>
                     <h1 className="ProjectsTitlesLeft">Test</h1>
                         <div className="ProjectsCard">
                             <img src={Test} alt="test image" className="ProjectsImages" />
@@ -31,7 +31,7 @@ function Projects() {
                             <button className="ProjectsBtns">GitHub Link <i class="fab fa-github-alt"></i></button>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn='bounceInLeft' duration={1.8}>
+                    <ScrollAnimation animateIn='bounceInRight' duration={1.8}>
                         <div className="ProjectsTextWrapper">
                             <p className="ProjectsText">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </p>
                             <p className="ProjectsText">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </p>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Intro.css';
 import "animate.css/animate.min.css";
-import Me from '../../images/me.jpeg';
+import Me from '../../images/me_cartoon.jpg';
 import Typewriter from 'typewriter-effect';
 import Socials from '../Socials/Socials';
 import { bounceInUp, bounceInDown } from 'react-animations';
