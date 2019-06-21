@@ -6,17 +6,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import Coffee from '../../images/coffee.png';
 import Idaho from '../../images/idaho.png'
 import Hola from '../../images/hola.png';
-import Responsive from 'react-responsive';
- 
-const Desktop = props => <Responsive {...props} minWidth={992} />;
-const Desktop1 = props => <Responsive {...props} maxWidth={1100} />;
-const Tablet = props => <Responsive {...props} minWidth={768} maxWidth={991} />;
-const Mobile = props => <Responsive {...props} maxWidth={767} />;
-const Default = props => <Responsive {...props} minWidth={768} />;
 
 function About() {
     return (
-        <Desktop>
         <div className="About" id="about">
         <ScrollAnimation animateIn="fadeIn" duration={1}>
             <div className="AboutBanner">
@@ -68,7 +60,6 @@ function About() {
             </div>
             </ScrollAnimation>
         </div>
-        </Desktop>
     );
 }
 

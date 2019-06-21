@@ -3,18 +3,10 @@ import './Projects.css';
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 import Forest from '../../images/forest-black-1.png';
-import Responsive from 'react-responsive';
 import Test from '../../images/test.png';
- 
-const Desktop = props => <Responsive {...props} minWidth={992} />;
-const Desktop1 = props => <Responsive {...props} maxWidth={1100} />;
-const Tablet = props => <Responsive {...props} minWidth={768} maxWidth={991} />;
-const Mobile = props => <Responsive {...props} maxWidth={767} />;
-const Default = props => <Responsive {...props} minWidth={768} />;
 
 function Projects() {
     return (
-        <Desktop>
         <div className="Projects" id="projects">
         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" duration={1}>
             <div className="ProjectsBanner">
@@ -80,7 +72,6 @@ function Projects() {
             </div>
         </ScrollAnimation>
         </div>
-        </Desktop>
     );
 }
 

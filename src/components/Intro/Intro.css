@@ -20,6 +20,8 @@
 }
 .Typewriter__wrapper, .Typewriter__cursor {
     font-size: 5rem;
+
+    transition: all 0.3s;
 }
 .TypeEffect {
     margin: 10px;
@@ -42,3 +44,10 @@
 .CallToAction:hover {
     color: #E76768;
 }
+
+  
+/* @media only screen and (max-width: 900px) {
+    .Typewriter__wrapper, .Typewriter__cursor {
+        font-size: 2rem;
+    }
+} */

@@ -5,6 +5,8 @@
     height: 100vh;
     border-right: 5px solid #222;
     z-index: 999;
+
+    transition: all 0.3s;
 }
 .NavItems {
     display: flex;
@@ -78,4 +80,9 @@
 .active:hover {
     background-color: #FAFAD2;
     border-radius: 50px;
+}
+@media only screen and (max-width: 900px) {
+    .Nav {
+        display: none;
+    }
 }
