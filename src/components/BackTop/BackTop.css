@@ -47,3 +47,13 @@
 .BT3 {
     transform: translate(-30px, -20px);
 }
+@media only screen and (max-width: 1150px) {
+    .BackTop {
+        transform: translate(50px, -150px);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .BackTop {
+        transform: translate(50px, -130px);
+    }
+}

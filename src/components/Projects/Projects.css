@@ -93,3 +93,13 @@
     transform: translate(-190px, 40px);
     text-align: left;
 }
+@media only screen and (max-width: 1200px) {
+    .ProjectsHeaders {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .ProjectsHeaders {
+        width: 40%;
+    }
+}

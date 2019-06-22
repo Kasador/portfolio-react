@@ -3,3 +3,6 @@ body {
     background-color: lightgoldenrodyellow;
     overflow-X: hidden;
 }
+i {
+    font-style: italic;
+}

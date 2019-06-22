@@ -9,7 +9,6 @@
 .ContactHeaders {
     position: relative;
     left: 80%;
-
     font-size: 3rem;
     background-color: #222;
     color: #FAFBD2;
@@ -17,6 +16,8 @@
     text-align: left;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+
+    transition: all 0.3s;
 }
 .ContactContent {
     display: flex;
@@ -83,4 +84,29 @@
 }
 .ContactSubmit:focus {
     outline: none;
+}
+@media only screen and (max-width: 1200px) {
+    .ContactHeaders {
+        left: 70%;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .ContactForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 50px;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .ContactPosition {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .ContactHeaders {
+        left: 55%;
+    }
 }

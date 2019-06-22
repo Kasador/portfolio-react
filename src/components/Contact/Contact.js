@@ -2,14 +2,7 @@ import React from 'react';
 import './Contact.css';
 import "animate.css/animate.min.css";
 import Forest from '../../images/forest-black-2.png';
-import Responsive from 'react-responsive';
 import ScrollAnimation from 'react-animate-on-scroll';
- 
-const Desktop = props => <Responsive {...props} minWidth={992} />;
-const Desktop1 = props => <Responsive {...props} maxWidth={1100} />;
-const Tablet = props => <Responsive {...props} minWidth={768} maxWidth={991} />;
-const Mobile = props => <Responsive {...props} maxWidth={767} />;
-const Default = props => <Responsive {...props} minWidth={768} />;
 
 function Contact() {
     return (

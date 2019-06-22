@@ -9,17 +9,37 @@
     justify-content: center;
     align-items: center;
 }
+.AboutPictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .AboutText {
     color: #222;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 5px;
 }
 .AboutIcons {
     margin: 5px;
+    width: 275px;
+
+    transition: all 0.3s;
 }
 .AboutText p {
     text-indent: 2rem;
-    font-size: 2rem;
-    padding: 5px 15px;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+    align-content: left;
+
+    transition: all 0.3s;
+}
+dfn {
+    color: #444;
+    text-decoration: underline;
+    cursor: auto;
 }
 .ForestBanner {
     width: 100%;
@@ -27,7 +47,6 @@
 .AboutHeaders {
     position: relative;
     left: 80%;
-
     font-size: 3rem;
     background-color: #222;
     color: #FAFBD2;
@@ -35,9 +54,48 @@
     text-align: left;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+
+    transition: all 0.3s;
 }
 .AboutBanner {
     display: flex;
     flex-direction: column;
     overflow-X: hidden;
+}
+@media only screen and (max-width: 1400px) {
+    .AboutIcons {
+        width: 200px;
+    }
+    .AboutText p {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .AboutHeaders {
+        left: 70%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .AboutText p {
+        font-size: 1.1rem;
+    }
+    .AboutContent {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .AboutContent {
+        flex-direction: column;
+    }
+    .FixToTopIcon {
+        order: 1;
+    }
+    .FixToTopText {
+        order: 2;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .AboutHeaders {
+        left: 60%;
+    }
 }
