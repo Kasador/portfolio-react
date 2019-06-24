@@ -1,11 +1,9 @@
 import React from 'react';
 import './BackTop.css';
 import "animate.css/animate.min.css";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
-
-function Projects() {
-            
+function Projects() {   
     return (
         <div className="BackTop">
                 <Link
@@ -16,7 +14,7 @@ function Projects() {
                     smooth={true}
                     offset={-40}
                     duration= {1000} >
-                        <i class="fas fa-chevron-circle-up"></i>
+                        <i className="fas fa-chevron-circle-up"></i>
                 </Link>
                 <div className="BackTopSocials">
                     <i className="fab fa-instagram BackTopIcon BT1"></i>

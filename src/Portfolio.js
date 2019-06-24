@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Portfolio.css';
 import styled, { keyframes } from 'styled-components';
 import { fadeIn } from 'react-animations';

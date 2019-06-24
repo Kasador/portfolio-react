@@ -1,0 +1,88 @@
+.Nav {
+    position: fixed;
+    width: 200px;
+    background-color: #E76768;
+    height: 100vh;
+    border-right: 5px solid #222;
+    z-index: 999;
+
+    transition: all 0.3s;
+}
+.NavItems {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 50px;
+    
+    transition: all 0.2s;
+}
+.NavLinks {
+    color: #FAFAD2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.8rem;
+    width: 200px;
+    padding: 15px 0px;
+
+    transition: all 0.2s;
+}
+.NavLinks:hover {
+    color: #222;
+    background-color: #FAFAD2;
+}
+.NavLinks i {
+    padding: 5px;
+}
+.LanguagesPosition {
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+}
+.LanguagesWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FAFAD2;
+
+    transition: color .2s;
+}
+.Languages:hover {
+    color: #222;
+    cursor: pointer;
+}
+.Languages img {
+    width: 50px;
+    height: 33px;
+    border: 2px solid #FAFAD2;
+    border-radius: 10px;
+    margin: 5px;
+
+    transition: all 0.2s;
+}
+.Languages img:hover {
+    border-color: #222;
+}
+.active {
+    background-color: #222;
+
+    transition: all 0.2s;
+}
+.active:hover {
+    background-color: #FAFAD2;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 900px) {
+    .Nav {
+        display: none;
+    }
+}

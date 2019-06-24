@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Footer.css';
 import "animate.css/animate.min.css";
 import FooterImg from '../../images/footer.png';

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Intro.css';
 import "animate.css/animate.min.css";
 import Me from '../../images/me_cartoon.jpg';
@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 import Socials from '../Socials/Socials';
 import { bounceInUp, bounceInDown } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const FadeIn = styled.div`animation: 1.5s ${keyframes`${bounceInUp}`}`;
 const BounceIn = styled.div`animation: 1.5s ${keyframes`${bounceInDown}`}`;
@@ -16,7 +16,7 @@ function Intro() {
         <div className="Intro" id="home">
             <div className="IntroWrapper">
                 <BounceIn>
-                <img src={Me} alt="picture of me" className="Me" />
+                <img src={Me} alt="Me" className="Me" />
                 </BounceIn>
                 <div className="TypeEffect">
                     <Typewriter
