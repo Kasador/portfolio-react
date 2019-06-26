@@ -1,5 +1,5 @@
 import React from 'react';
-import './Nav.css';
+import './NavMobile.css';
 import { bounceInLeft, fadeIn } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 import Usa from '../../images/usa.png';
@@ -11,53 +11,53 @@ const FadeIn = styled.div`animation: 2.3s ${keyframes`${fadeIn}`}`;
 
 function Nav() {
     return (
-        <div className="Nav">
+        <div className="NavMobile">
             <BounceLeft>
-            <ul className="NavItems">
+            <ul className="NavItemsMobile">
                 <Link
-                    activeClass="active"
+                    activeClass="activeMobile"
                     to="home"
                     spy={true}
                     smooth={true}
                     offset={-40}
                     duration= {1000}>
-                        <div className="NavLinks">
+                        <div className="NavLinksMobile">
                             <i className="fas fa-tree"></i>
                             Home
                         </div>
                 </Link>
                 <Link
-                    activeClass="active"
+                    activeClass="activeMobile"
                     to="about"
                     spy={true}
                     smooth={true}
                     offset={-40}
                     duration= {1000} >
-                        <div className="NavLinks">
+                        <div className="NavLinksMobile">
                             <i className="fas fa-address-card"></i>
                             About
                         </div>
                 </Link>
                 <Link
-                    activeClass="active"
+                    activeClass="activeMobile"
                     to="projects"
                     spy={true}
                     smooth={true}
                     offset={-40}
                     duration= {500} >
-                        <div className="NavLinks">
+                        <div className="NavLinksMobile">
                             <i className="fas fa-project-diagram"></i>
                             Projects
                         </div>
                 </Link>
                 <Link
-                    activeClass="active"
+                    activeClass="activeMobile"
                     to="contact"
                     spy={true}
                     smooth={true}
                     offset={-40}
                     duration= {500} >
-                        <div className="NavLinks">
+                        <div className="NavLinksMobile">
                             <i className="fas fa-id-card-alt"></i>
                             Contact
                         </div>

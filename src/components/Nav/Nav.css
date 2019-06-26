@@ -37,41 +37,6 @@
 .NavLinks i {
     padding: 5px;
 }
-.LanguagesPosition {
-    position: absolute;
-    bottom: 30px;
-    left: 35px;
-}
-.LanguagesWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.Languages {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #FAFAD2;
-
-    transition: color .2s;
-}
-.Languages:hover {
-    color: #222;
-    cursor: pointer;
-}
-.Languages img {
-    width: 50px;
-    height: 33px;
-    border: 2px solid #FAFAD2;
-    border-radius: 10px;
-    margin: 5px;
-
-    transition: all 0.2s;
-}
-.Languages img:hover {
-    border-color: #222;
-}
 .active {
     background-color: #222;
 

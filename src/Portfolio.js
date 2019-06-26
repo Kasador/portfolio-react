@@ -6,6 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 import Intro from './components/Intro/Intro';
 import Nav from './components/Nav/Nav';
+import NavMobile from './components/NavMobile/NavMobile';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
@@ -17,6 +18,7 @@ function Portfolio() {
     return (
         <div className="Portfolio">
             <Nav />
+            <NavMobile />
             <div className="MainContent">
                 <FadeIn>
                     <Intro />

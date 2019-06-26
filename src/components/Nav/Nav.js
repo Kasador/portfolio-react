@@ -2,12 +2,10 @@ import React from 'react';
 import './Nav.css';
 import { bounceInLeft, fadeIn } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
-import Usa from '../../images/usa.png';
-import Spain from '../../images/spain.png';
 import { Link } from "react-scroll";
 
 const BounceLeft = styled.div`animation: 1.5s ${keyframes`${bounceInLeft}`}`;
-const FadeIn = styled.div`animation: 2.3s ${keyframes`${fadeIn}`}`;
+// const FadeIn = styled.div`animation: 2.3s ${keyframes`${fadeIn}`}`;
 
 function Nav() {
     return (
@@ -64,20 +62,6 @@ function Nav() {
                 </Link>
             </ul>
             </BounceLeft>
-            <FadeIn>
-            <div className="LanguagesPosition">
-                <div className="LanguagesWrapper">
-                    <div className="Languages">
-                        <img src={Usa} alt="USA flag" />
-                        <span>English</span>
-                    </div>
-                    <div className="Languages">
-                        <img src={Spain} alt="USA flag" />
-                        <span>Spanish</span>
-                    </div>
-                </div>
-            </div>
-            </FadeIn>
         </div>
     )
 }
