@@ -62,6 +62,8 @@
     background-color: #FAFBD2;
     border-radius: 10px;
     border: 2px solid #E76768;
+
+    transition: all 0.3s;
 }
 #ContactTextArea:focus {
     outline: none;
@@ -108,5 +110,17 @@
 @media only screen and (max-width: 650px) {
     .ContactHeaders {
         left: 55%;
+    }
+}
+@media only screen and (max-width:500px) {
+    #ContactTextArea {
+        width: 300px;
+        height: 175px;
+        font-size: 1.5rem;
+        margin: 30px;
+        padding: 5px 10px;
+        background-color: #FAFBD2;
+        border-radius: 10px;
+        border: 2px solid #E76768;
     }
 }

@@ -9,7 +9,7 @@
     transition: all 0.2s;
 }
 .MobileNavContainer {
-    display: none;
+    /* display: none; */
     position: fixed;
     width: 100%;
     height: 100vh;

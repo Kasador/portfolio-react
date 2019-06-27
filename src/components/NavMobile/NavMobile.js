@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import './NavMobile.css';
-import { bounceInLeft, fadeIn, rotateIn } from 'react-animations';
+import { bounceInDown, fadeIn, rotateIn } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 import Usa from '../../images/usa.png';
 import Spain from '../../images/spain.png';
 import { Link } from "react-scroll";
 
-const BounceLeft = styled.div`animation: 1.5s ${keyframes`${bounceInLeft}`}`;
-const FadeIn = styled.div`animation: 2.3s ${keyframes`${fadeIn}`}`;
+const BounceDown = styled.div`animation: 1.5s ${keyframes`${bounceInDown}`}`;
+const FadeIn = styled.div`animation: 2s ${keyframes`${fadeIn}`}`;
 const RotateIn = styled.div`animation: 0.5s ${keyframes`${rotateIn}`}`;
+const RotateInWrapper = styled.div`animation: 1s ${keyframes`${rotateIn}`}`;
 
 function Nav() {
     const [open, setOpen] = useState(false);
@@ -23,15 +24,16 @@ function Nav() {
 
     return (
         <div className="NavMobile">
-            <FadeIn>
+            <RotateInWrapper>
                 <div className="Plus-Minus">
                     {!open ? <div onClick={() => Open()}><RotateIn><i className="fas fa-plus-circle Plus-MinusSigns"></i></RotateIn></div> : <RotateIn><div><i className="fas fa-minus-circle Plus-MinusSigns" onClick={() => Close()}></i></div></RotateIn>}
                 </div>
-            </FadeIn>
-            <div className="MobileNavContainer">
-                <BounceLeft>
+            </RotateInWrapper>
+            {open ? <div className="MobileNavContainer">
+                <BounceDown>
                 <ul className="NavItemsMobile">
                     <Link
+                        onClick={() => Close()}
                         activeClass="activeMobile"
                         to="home"
                         spy={true}
@@ -44,6 +46,7 @@ function Nav() {
                             </div>
                     </Link>
                     <Link
+                        onClick={() => Close()}
                         activeClass="activeMobile"
                         to="about"
                         spy={true}
@@ -56,6 +59,7 @@ function Nav() {
                             </div>
                     </Link>
                     <Link
+                        onClick={() => Close()}
                         activeClass="activeMobile"
                         to="projects"
                         spy={true}
@@ -68,6 +72,7 @@ function Nav() {
                             </div>
                     </Link>
                     <Link
+                        onClick={() => Close()}
                         activeClass="activeMobile"
                         to="contact"
                         spy={true}
@@ -80,7 +85,7 @@ function Nav() {
                             </div>
                     </Link>
                 </ul>
-                </BounceLeft>
+                </BounceDown>
                 <FadeIn>
                 <div className="LanguagesPosition">
                     <div className="LanguagesWrapper">
@@ -95,7 +100,7 @@ function Nav() {
                     </div>
                 </div>
                 </FadeIn>
-            </div>
+            </div> : null}
         </div>
     )
 }
