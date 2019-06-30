@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .ProjectsHeaders {
     position: relative;
@@ -42,6 +43,15 @@
     width: 350px;
     height: 250px;
 }
+.ImagesLinks {
+    width: 350px;
+    height: 250px;
+    
+    transition: all 0.3s;
+}
+.ImagesLinks:hover {
+    opacity: .8;
+}
 .ProjectsBtns {
     font-size: 1.5rem;
     width: 350px;
@@ -60,10 +70,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 30px;
+    transform: translateY(40px)
 }
 .ProjectsText {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: left;
     text-indent: 2rem;
     padding: 5px;
@@ -75,28 +85,73 @@
     color:#FAFBD2;
     background-color: #E76768;
     width: 200px;
+}
+.ProjectsTitles {
+    position: absolute;
+    font-size: 1.4rem;
+    color:#FAFBD2;
+    background-color: #E76768;
+    width: 200px;
     padding: 10px;
+}
+.Right {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transform: translate(-190px, 40px);
+    text-align: left;
+}
+.Left {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     text-align: right;
     z-index: 10;
     transform: translate(385px, 40px);
 }
-.ProjectsTitlesRight {
-    position: absolute;
-    font-size: 1.5rem;
-    color:#FAFBD2;
-    background-color: #E76768;
-    width: 200px;
-    padding: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    transform: translate(-190px, 40px);
+.TechUsed {
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px;
+}
+.TechHeader {
     text-align: left;
+    padding: 10px;
+    color: #777;
+}
+.TechIcons {
+    font-size: 3.5rem;
+    padding: 0px 5px;
+}
+.NoFontIcon {
+    width: 54px;
+}
+.html {
+    color: #E54C25;
+}
+.css {
+    color: #146FB1;
+}
+.javascript {
+    color: #F0DB4F;
+}
+.php {
+    color: #7478AE;
+}
+@media only screen and (max-width: 1650px) {
+    .ProjectsText {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .ProjectsText {
+        font-size: 1.3rem;
+    }
 }
 @media only screen and (max-width: 1200px) {
     .ProjectsHeaders {
         width: 30%;
+    }
+    .ProjectsText {
+        font-size: 1.2rem;
     }
 }
 @media only screen and (max-width: 1100px) {
@@ -113,15 +168,24 @@
         width: 90%;
         margin: 0 auto;
     }
-    .ProjectsTitlesLeft {
+    .Left {
         transform: translate(30px, 50px);
     }
-    .ProjectsTitlesRight {
+    .Right {
         transform: translate(170px, 50px);
+    }
+    .ProjectsText {
+        font-size: 1.5rem;
+    }
+    .ProjectsTextWrapper {
+        transform: translateY(0px);
     }
 }
 @media only screen and (max-width: 650px) {
     .ProjectsHeaders {
         width: 40%;
+    }
+    .ProjectsText {
+        font-size: 1.3rem;
     }
 }

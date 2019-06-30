@@ -1,6 +1,6 @@
 import React from 'react';
 import './Nav.css';
-import { bounceInLeft, fadeIn } from 'react-animations';
+import { bounceInLeft } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 import { Link } from "react-scroll";
 

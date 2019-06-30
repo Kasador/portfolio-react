@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
 import './NavMobile.css';
-import { bounceInDown, fadeIn, rotateIn } from 'react-animations';
+import { bounceInDown, rotateIn } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
-import Usa from '../../images/usa.png';
-import Spain from '../../images/spain.png';
 import { Link } from "react-scroll";
 
 const BounceDown = styled.div`animation: 1.5s ${keyframes`${bounceInDown}`}`;
-const FadeIn = styled.div`animation: 2s ${keyframes`${fadeIn}`}`;
+// const FadeIn = styled.div`animation: 2s ${keyframes`${fadeIn}`}`;
 const RotateIn = styled.div`animation: 0.5s ${keyframes`${rotateIn}`}`;
 const RotateInWrapper = styled.div`animation: 1s ${keyframes`${rotateIn}`}`;
 
-function Nav() {
+function NavMobile() {
     const [open, setOpen] = useState(false);
 
     const Open = () => {
@@ -86,7 +84,7 @@ function Nav() {
                     </Link>
                 </ul>
                 </BounceDown>
-                <FadeIn>
+                {/* <FadeIn>
                 <div className="LanguagesPosition">
                     <div className="LanguagesWrapper">
                         <div className="Languages">
@@ -99,10 +97,10 @@ function Nav() {
                         </div>
                     </div>
                 </div>
-                </FadeIn>
+                </FadeIn> */}
             </div> : null}
         </div>
     )
 }
 
-export default Nav;
+export default NavMobile;
