@@ -9,7 +9,7 @@ Here's my old portfolio, have a look: [https://hunterstevenshaw.com](https://hun
 ### `Live Preview`
 
 This opens my new portfolio, all done in React this time.<br>
-Open [https://hunterstevenshaw.com](linkcommingsoon) to view it in the browser.<br>
+Open [https://amazing-almeida-72e847.netlify.com/](https://amazing-almeida-72e847.netlify.com/) to view it in the browser.<br>
 
 Will have more information upon creating and developing.<br>
 
