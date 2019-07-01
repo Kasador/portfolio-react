@@ -14,7 +14,7 @@ function Contact() {
                 <img src={Forest} alt="forest art banner" className="ForestBanner2" />
             </div>
             <div className="ContactContent">
-                <form className="ContactForm">
+                <form className="ContactForm" action="../mail.php" method="POST">
                     <ScrollAnimation animateIn="fadeIn" duration={1}>
                         <div className="ContactPosition">
                             <div className="ContactInputsWrapper">
