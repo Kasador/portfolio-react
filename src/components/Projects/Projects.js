@@ -30,7 +30,7 @@ function Projects() {
                     </ScrollAnimation>
                     <ScrollAnimation animateIn='bounceInRight' duration={2.0}>
                         <div className="ProjectsTextWrapper">
-                            <p className="ProjectsText">This is my very first website I've ever built. I like to keep it unchanged to remind myself how far I've come since then. If I ever feel down about my coding skills, I'll come back to this &#x00026; look at it.</p>
+                            <p className="ProjectsText">This is my very first website I've built. I like to keep it unchanged to remind myself how far I've come since then. If I ever feel down about my coding skills, I'll come back to this &#x00026; look at it.</p>
                             <p className="ProjectsText">Originally, it was a website made for Spanish slang. It consists of mostly HTML5 &#x00026; CSS3; however, I did figure out a contact form without knowing php at that time.</p>
                             <span class="TechHeader">Technologies used:</span>
                             <div className="TechUsed">
