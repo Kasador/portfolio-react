@@ -23,9 +23,9 @@ function Projects() {
                     <ScrollAnimation animateIn='bounceInRight' duration={1.8}>
                     <h1 className="ProjectsTitles Left">MySpanishSlang</h1>
                         <div className="ProjectsCard">
-                        <a href="https://hunterstevenshaw.com/projects/mySpanishSlang/index.html" target="_blank" className="ImagesLinks"><img src={MySpanishSlang} alt="test" className="ProjectsImages" /></a>
-                            <a href="https://hunterstevenshaw.com/projects/mySpanishSlang/index.html" target="_blank"><button className="ProjectsBtns">Live Link <i className="fas fa-link"></i></button></a>
-                            <a href="https://github.com/Kasador/my-spanish-slang" target="_blank"><button className="ProjectsBtns">GitHub Link <i className="fab fa-github-alt"></i></button></a>
+                        <a rel="noopener noreferrer" href="https://hunterstevenshaw.com/projects/mySpanishSlang/index.html" target="_blank" className="ImagesLinks"><img src={MySpanishSlang} alt="test" className="ProjectsImages" /></a>
+                            <a rel="noopener noreferrer" href="https://hunterstevenshaw.com/projects/mySpanishSlang/index.html" target="_blank"><button className="ProjectsBtns">Live Link <i className="fas fa-link"></i></button></a>
+                            <a rel="noopener noreferrer" href="https://github.com/Kasador/my-spanish-slang" target="_blank"><button className="ProjectsBtns">GitHub Link <i className="fab fa-github-alt"></i></button></a>
                         </div>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn='bounceInRight' duration={2.0}>
@@ -60,9 +60,9 @@ function Projects() {
                 <ScrollAnimation animateIn='bounceInRight' duration={2} className="OrderTop">
                 <h1 className="ProjectsTitles Right">D-tail Doctor</h1>
                     <div className="ProjectsCard">
-                        <a href="http://dtaildoc.com/" target="_blank" className="ImagesLinks"><img src={DTailDoctor} alt="test" className="ProjectsImages" /></a>
-                        <a href="http://dtaildoc.com/" target="_blank"><button className="ProjectsBtns">Live Link <i className="fas fa-link"></i></button></a>
-                        <a href="https://github.com/Kasador/d-tail-doctor" target="_blank"><button className="ProjectsBtns">GitHub Link <i className="fab fa-github-alt"></i></button></a>
+                        <a rel="noopener noreferrer" href="http://dtaildoc.com/" target="_blank" className="ImagesLinks"><img src={DTailDoctor} alt="test" className="ProjectsImages" /></a>
+                        <a rel="noopener noreferrer" href="http://dtaildoc.com/" target="_blank"><button className="ProjectsBtns">Live Link <i className="fas fa-link"></i></button></a>
+                        <a rel="noopener noreferrer" href="https://github.com/Kasador/d-tail-doctor" target="_blank"><button className="ProjectsBtns">GitHub Link <i className="fab fa-github-alt"></i></button></a>
                     </div>
                 </ScrollAnimation>
                 </div>
@@ -71,9 +71,9 @@ function Projects() {
                     <ScrollAnimation animateIn='bounceInLeft' duration={2}>
                     <h1 className="ProjectsTitles Left">Lascar Productions</h1>
                         <div className="ProjectsCard">
-                            <a href="https://www.lascarproductions.com/" target="_blank" className="ImagesLinks"><img src={LascarProductions} alt="test" className="ProjectsImages" /></a>
-                            <a href="https://www.lascarproductions.com/" target="_blank"><button className="ProjectsBtns">Live Link <i className="fas fa-link"></i></button></a>
-                            <a href="https://github.com/Kasador/lascar-productions" target="_blank"><button className="ProjectsBtns">GitHub Link <i className="fab fa-github-alt"></i></button></a>
+                            <a rel="noopener noreferrer" href="https://www.lascarproductions.com/" target="_blank" className="ImagesLinks"><img src={LascarProductions} alt="test" className="ProjectsImages" /></a>
+                            <a rel="noopener noreferrer" href="https://www.lascarproductions.com/" target="_blank"><button className="ProjectsBtns">Live Link <i className="fas fa-link"></i></button></a>
+                            <a rel="noopener noreferrer" href="https://github.com/Kasador/lascar-productions" target="_blank"><button className="ProjectsBtns">GitHub Link <i className="fab fa-github-alt"></i></button></a>
                         </div>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn='bounceInRight' duration={2.4}>
@@ -109,9 +109,9 @@ function Projects() {
                 <ScrollAnimation animateIn='bounceInRight' duration={2} className="OrderTop">
                 <h1 className="ProjectsTitles Right">D-tail Doctor</h1>
                     <div className="ProjectsCard">
-                        <a href="http://dtaildoc.com/" target="_blank" className="ImagesLinks"><img src={DTailDoctor} alt="test" className="ProjectsImages" /></a>
-                        <a href="http://dtaildoc.com/" target="_blank"><button className="ProjectsBtns">Live Link <i className="fas fa-link"></i></button></a>
-                        <a href="https://github.com/Kasador/d-tail-doctor" target="_blank"><button className="ProjectsBtns">GitHub Link <i className="fab fa-github-alt"></i></button></a>
+                        <a rel="noopener noreferrer" href="http://dtaildoc.com/" target="_blank" className="ImagesLinks"><img src={DTailDoctor} alt="test" className="ProjectsImages" /></a>
+                        <a rel="noopener noreferrer" href="http://dtaildoc.com/" target="_blank"><button className="ProjectsBtns">Live Link <i className="fas fa-link"></i></button></a>
+                        <a rel="noopener noreferrer" href="https://github.com/Kasador/d-tail-doctor" target="_blank"><button className="ProjectsBtns">GitHub Link <i className="fab fa-github-alt"></i></button></a>
                     </div>
                 </ScrollAnimation>
                 </div>
@@ -119,9 +119,9 @@ function Projects() {
                     <ScrollAnimation animateIn='bounceInLeft' duration={2}>
                     <h1 className="ProjectsTitles Left">Lascar Productions</h1>
                         <div className="ProjectsCard">
-                            <a href="https://www.lascarproductions.com/" target="_blank" className="ImagesLinks"><img src={LascarProductions} alt="test" className="ProjectsImages" /></a>
-                            <a href="https://www.lascarproductions.com/" target="_blank"><button className="ProjectsBtns">Live Link <i className="fas fa-link"></i></button></a>
-                            <a href="https://github.com/Kasador/lascar-productions" target="_blank"><button className="ProjectsBtns">GitHub Link <i className="fab fa-github-alt"></i></button></a>
+                            <a rel="noopener noreferrer" href="https://www.lascarproductions.com/" target="_blank" className="ImagesLinks"><img src={LascarProductions} alt="test" className="ProjectsImages" /></a>
+                            <a rel="noopener noreferrer" href="https://www.lascarproductions.com/" target="_blank"><button className="ProjectsBtns">Live Link <i className="fas fa-link"></i></button></a>
+                            <a rel="noopener noreferrer" href="https://github.com/Kasador/lascar-productions" target="_blank"><button className="ProjectsBtns">GitHub Link <i className="fab fa-github-alt"></i></button></a>
                         </div>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn='bounceInRight' duration={2.4}>
