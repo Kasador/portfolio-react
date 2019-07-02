@@ -71,7 +71,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    transform: translateY(40px)
+    transform: translateY(40px);
 }
 .ProjectsText {
     font-size: 1.8rem;
@@ -103,7 +103,7 @@
 }
 .TechUsed {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     margin: 10px 0px;
 }
 .TechHeader {
