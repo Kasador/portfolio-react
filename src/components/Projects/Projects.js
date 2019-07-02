@@ -42,6 +42,8 @@ function Projects() {
                         </div>
                     </ScrollAnimation>
                 </div>
+            </div>
+            <div className="ProjectsContent">
                 {/* D-tail Doctor */}
                 <div className="ProjectsInfo">
                 <ScrollAnimation animateIn='bounceInLeft' duration={1.8} className="OrderBot">
@@ -66,6 +68,8 @@ function Projects() {
                     </div>
                 </ScrollAnimation>
                 </div>
+            </div>
+            <div className="ProjectsContent">
                 {/* Lascar Productions */}
                 <div className="ProjectsInfo">
                     <ScrollAnimation animateIn='bounceInLeft' duration={2}>
@@ -91,6 +95,8 @@ function Projects() {
                         </div>
                     </ScrollAnimation>
                 </div>
+            </div>
+            <div className="ProjectsContent">
                 {/* Lascar Productions */}
                 <div className="ProjectsInfo">
                 <ScrollAnimation animateIn='bounceInLeft' duration={1.8} className="OrderBot">
@@ -115,6 +121,8 @@ function Projects() {
                     </div>
                 </ScrollAnimation>
                 </div>
+            </div>
+            <div className="ProjectsContent">
                 <div className="ProjectsInfo">
                     <ScrollAnimation animateIn='bounceInLeft' duration={2}>
                     <h1 className="ProjectsTitles Left">Lascar Productions</h1>
