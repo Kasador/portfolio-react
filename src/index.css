@@ -2,6 +2,7 @@ body {
     font-family: 'Nunito', sans-serif;
     background-color: lightgoldenrodyellow;
     overflow-X: hidden;
+    width: 100%;
 }
 i {
     font-style: italic;
