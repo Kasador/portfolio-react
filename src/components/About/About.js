@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-import "animate.css/animate.min.css";
 import Forest from '../../images/forest-black.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Coffee from '../../images/coffee.png';
@@ -10,11 +9,12 @@ import Hola from '../../images/hola.png';
 function About() {
     return (
         <div className="About" id="about">
-        <ScrollAnimation animateIn="fadeIn" duration={1}>
-            <div className="AboutBanner">
-                <h1 className="AboutHeaders">About</h1>
-                <img src={Forest} alt="forest art banner" className="ForestBanner" />
-            </div>
+            <ScrollAnimation animateIn="fadeIn" duration={1}>
+                <div className="AboutBanner">
+                    <h1 className="AboutHeaders">About</h1>
+                    <img src={Forest} alt="forest art banner" className="ForestBanner" />
+                </div>
+            </ScrollAnimation>
             <div className="AboutContent">
                 <ScrollAnimation animateIn='bounceInLeft' duration={2}>
                 <div className="AboutPictures">
@@ -43,7 +43,6 @@ function About() {
                 </div>
             </ScrollAnimation>
             </div>
-            
             <div className="AboutContent">
             <ScrollAnimation animateIn='bounceInLeft' duration={2}>
                 <div className="AboutPictures">
@@ -56,9 +55,8 @@ function About() {
                     <p>When I'm faced with a new language or framework to learn, Spanish has taught me to be patient while learning. I'm a professionist at heart and because of this, I often never feel satistifed with just doing the bare minimum.</p>
                     <p>I take pride in my work and never understand the people who development an unenjoyable user experience.</p>
                 </div>
-                </ScrollAnimation>
-            </div>
             </ScrollAnimation>
+            </div>
         </div>
     );
 }

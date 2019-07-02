@@ -5,7 +5,6 @@ import styled, { keyframes } from 'styled-components';
 import { Link } from "react-scroll";
 
 const BounceLeft = styled.div`animation: 1.5s ${keyframes`${bounceInLeft}`}`;
-// const FadeIn = styled.div`animation: 2.3s ${keyframes`${fadeIn}`}`;
 
 function Nav() {
     return (

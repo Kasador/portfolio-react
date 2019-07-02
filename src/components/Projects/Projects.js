@@ -1,22 +1,22 @@
 import React from 'react';
 import './Projects.css';
-import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 import Forest from '../../images/forest-black-1.png';
 import LascarProductions from '../../images/lascarproductions.png';
 import MySpanishSlang from '../../images/myspanishslang.png';
 import DTailDoctor from '../../images/dtaildoctor.png';
 import MySQL from '../../images/mysql.png';
-import WarBonnet from '../../images/warbonnet.png';
+// import WarBonnet from '../../images/warbonnet.png';
 
 function Projects() {
     return (
         <div className="Projects" id="projects">
-        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" duration={1}>
-            <div className="ProjectsBanner">
-                <h1 className="ProjectsHeaders">Projects</h1>
-                <img src={Forest} alt="mountain art banner" className="ForestOneBanner" />
-            </div>
+            <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" duration={1}>
+                <div className="ProjectsBanner">
+                    <h1 className="ProjectsHeaders">Projects</h1>
+                    <img src={Forest} alt="mountain art banner" className="ForestOneBanner" />
+                </div>
+            </ScrollAnimation>
             <div className="ProjectsContent">
                 {/* MySpanishSlang */}
                 <div className="ProjectsInfo">
@@ -148,7 +148,6 @@ function Projects() {
                     </ScrollAnimation>
                 </div>
             </div> 
-        </ScrollAnimation>
         </div>
     );
 }

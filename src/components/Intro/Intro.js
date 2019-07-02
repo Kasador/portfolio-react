@@ -1,6 +1,5 @@
 import React from 'react';
 import './Intro.css';
-import "animate.css/animate.min.css";
 import Me from '../../images/me_cartoon.jpg';
 import Typewriter from 'typewriter-effect';
 import Socials from '../Socials/Socials';

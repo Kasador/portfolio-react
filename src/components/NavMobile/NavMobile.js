@@ -5,7 +5,6 @@ import styled, { keyframes } from 'styled-components';
 import { Link } from "react-scroll";
 
 const BounceDown = styled.div`animation: 1.5s ${keyframes`${bounceInDown}`}`;
-// const FadeIn = styled.div`animation: 2s ${keyframes`${fadeIn}`}`;
 const RotateIn = styled.div`animation: 0.5s ${keyframes`${rotateIn}`}`;
 const RotateInWrapper = styled.div`animation: 1s ${keyframes`${rotateIn}`}`;
 
@@ -84,20 +83,6 @@ function NavMobile() {
                     </Link>
                 </ul>
                 </BounceDown>
-                {/* <FadeIn>
-                <div className="LanguagesPosition">
-                    <div className="LanguagesWrapper">
-                        <div className="Languages">
-                            <img src={Usa} alt="USA flag" />
-                            <span>English</span>
-                        </div>
-                        <div className="Languages">
-                            <img src={Spain} alt="USA flag" />
-                            <span>Spanish</span>
-                        </div>
-                    </div>
-                </div>
-                </FadeIn> */}
             </div> : null}
         </div>
     )

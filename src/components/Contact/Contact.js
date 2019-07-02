@@ -1,6 +1,5 @@
 import React from 'react';
 import './Contact.css';
-import "animate.css/animate.min.css";
 import Forest from '../../images/forest-black-2.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 

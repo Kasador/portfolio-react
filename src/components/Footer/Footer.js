@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import "animate.css/animate.min.css";
 import FooterImg from '../../images/footer.png';
 import BackTop from '../BackTop/BackTop';
 
