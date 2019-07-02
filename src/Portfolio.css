@@ -1,6 +1,10 @@
 .MainContent {
     margin-left: 200px;
 
+    -webkit-transition: all 0.3s;
+
+    -o-transition: all 0.3s;
+
     transition: all 0.3s;
 }
   

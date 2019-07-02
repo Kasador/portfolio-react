@@ -6,27 +6,56 @@
     border-right: 5px solid #222;
     z-index: 999;
 
+    -webkit-transition: all 0.3s;
+
+    -o-transition: all 0.3s;
+
     transition: all 0.3s;
 }
 .NavItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
     border-radius: 50px;
+    
+    -webkit-transition: all 0.2s;
+    
+    -o-transition: all 0.2s;
     
     transition: all 0.2s;
 }
 .NavLinks {
     color: #FAFAD2;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     cursor: pointer;
     font-size: 1.8rem;
     width: 200px;
     padding: 15px 0px;
+
+    -webkit-transition: all 0.2s;
+
+    -o-transition: all 0.2s;
 
     transition: all 0.2s;
 }
@@ -39,6 +68,10 @@
 }
 .active {
     background-color: #222;
+
+    -webkit-transition: all 0.2s;
+
+    -o-transition: all 0.2s;
 
     transition: all 0.2s;
 }

@@ -1,10 +1,22 @@
 .NavItemsMobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
     border-radius: 50px;
     background-color: #E76768;
+    
+    -webkit-transition: all 0.2s;
+    
+    -o-transition: all 0.2s;
     
     transition: all 0.2s;
 }
@@ -16,17 +28,34 @@
     z-index: 999;
     background-color: #E76768;
 
+    -webkit-transition: all 0.3s;
+
+    -o-transition: all 0.3s;
+
     transition: all 0.3s;
 }
 .NavLinksMobile {
     color: #FAFAD2;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     cursor: pointer;
     font-size: 2rem;
     padding: 20px 0px;
+
+    -webkit-transition: all 0.2s;
+
+    -o-transition: all 0.2s;
 
     transition: all 0.2s;
 }
@@ -72,17 +101,30 @@
 .activeMobile {
     background-color: #222;
     width: 100%;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .Plus-MinusSigns {
     font-size: 3rem;
     color: #E76768;
     cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: #FAFAD2;
     border-radius: 100%;
     border: 3px solid #FAFAD2;

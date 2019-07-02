@@ -2,8 +2,13 @@
     width: 100%;
 }
 .ContactBanner {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     overflow-X: hidden;
 }
 .ContactHeaders {
@@ -17,30 +22,62 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 
+    -webkit-transition: all 0.3s;
+
+    -o-transition: all 0.3s;
+
     transition: all 0.3s;
 }
 .ContactContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #222;
 }
 .ContactForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 50px;
 }
 .ContactPosition {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .ContactInputsWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .ContactInputs {
     padding: 5px 10px;
@@ -63,6 +100,10 @@
     border-radius: 10px;
     border: 2px solid #E76768;
 
+    -webkit-transition: all 0.3s;
+
+    -o-transition: all 0.3s;
+
     transition: all 0.3s;
 }
 #ContactTextArea:focus {
@@ -76,7 +117,13 @@
     color: #FAFBD2;
     cursor: pointer;
     border: 2px solid #E76768;
-    transform: translateX(50px, 20px);
+    -webkit-transform: translateX(50px, 20px);
+        -ms-transform: translateX(50px, 20px);
+            transform: translateX(50px, 20px);
+
+    -webkit-transition: all 0.2s;
+
+    -o-transition: all 0.2s;
 
     transition: all 0.2s;
 }
@@ -94,17 +141,29 @@
 }
 @media only screen and (max-width: 1150px) {
     .ContactForm {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin: 50px;
         padding-bottom: 50px;
     }
 }
 @media only screen and (max-width: 1000px) {
     .ContactPosition {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 }
 @media only screen and (max-width: 650px) {

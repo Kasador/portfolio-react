@@ -5,25 +5,46 @@
 .AboutContent {
     margin: 10px auto;
     width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .AboutPictures {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .AboutText {
     color: #222;
     text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 15px 5px;
 }
 .AboutIcons {
     margin: 5px;
     width: 275px;
+
+    -webkit-transition: all 0.3s;
+
+    -o-transition: all 0.3s;
 
     transition: all 0.3s;
 }
@@ -32,7 +53,12 @@
     font-size: 1.5rem;
     padding: 5px;
     margin: 5px;
-    align-content: left;
+    -ms-flex-line-pack: left;
+        align-content: left;
+
+    -webkit-transition: all 0.3s;
+
+    -o-transition: all 0.3s;
 
     transition: all 0.3s;
 }
@@ -55,11 +81,20 @@ dfn {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 
+    -webkit-transition: all 0.3s;
+
+    -o-transition: all 0.3s;
+
     transition: all 0.3s;
 }
 .AboutBanner {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     overflow-X: hidden;
 }
 @media only screen and (max-width: 1400px) {
@@ -85,13 +120,20 @@ dfn {
 }
 @media only screen and (max-width: 750px) {
     .AboutContent {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .FixToTopIcon {
-        order: 1;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
     }
     .FixToTopText {
-        order: 2;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
     }
     .AboutText p {
         font-size: 1.3rem;

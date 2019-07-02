@@ -7,6 +7,10 @@
     cursor: pointer;
     color: #222;
 
+    -webkit-transition: color .3s;
+
+    -o-transition: color .3s;
+
     transition: color .3s;
 }
 .Icon:hover {
