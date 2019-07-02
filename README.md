@@ -17,7 +17,7 @@ Will have more information upon creating and developing.<br>
 
 Below is a detailed summary of what struggles I've ran into making my portfolio, in React this time.<br>
 
-More information, upon development.
+I ran into a major problem. My problem was so simple, yet; I was ready to completely restart because of it. My problem when you loaded the site on mobile, it would not work correctly, the animations, the positioning of elements, etc and how I finally fixed it, something always so simple, was that I had a missing animate.css file in my head tag. I spent hours trying to debug this.
 
 ### `Skills`
 
