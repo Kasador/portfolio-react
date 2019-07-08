@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './reset.css';
 import './index.css';
 import Portfolio from './Portfolio';
+import 'animate.css';
 
-let destination = document.querySelector('#root');
+const destination = document.querySelector('#root');
 
 ReactDOM.render(<Portfolio />, destination);
