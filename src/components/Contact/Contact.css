@@ -134,6 +134,14 @@
 .ContactSubmit:focus {
     outline: none;
 }
+.ContactSubmit:disabled {
+    background-color: #f1a9aa;
+    cursor: not-allowed;
+}
+.Sending {
+    position: absolute;
+    right: 50%;
+}
 @media only screen and (max-width: 1200px) {
     .ContactHeaders {
         left: 70%;
