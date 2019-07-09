@@ -12,7 +12,7 @@ function Contact() {
         lastName: '',
         email: '',
         message: '',
-        isSending: true,
+        isSending: false,
         isEmpty: true
     });
 
@@ -21,49 +21,63 @@ function Contact() {
         setContactInfo({...contactInfo, [e.target.name]: e.target.value});
     }
 
+    // clear input fields on submit
     const handleClearData = () => {
-        setTimeout(() => {
-            setContactInfo({
-                firstName: '',
-                lastName: '',
-                email: '',
-                message: ''
-            })
-            
-            console.log('ClearData function went off.');
-            console.log(contactInfo);
-        }, 2000);
+        setContactInfo({
+            firstName: '',
+            lastName: '',
+            email: '',
+            message: '',
+            isSending: false,
+            isEmpty: false
+        });
+
+        console.log('Clear function went off!');
     }
 
     // handle submit
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        // on submit, slow sending spinner
+        setContactInfo({...contactInfo, isSending: true});
         // store info
         const name = `${contactInfo.firstName} ${contactInfo.lastName}`,
-        email = contactInfo.email,
-        message = contactInfo.message;
+            email = contactInfo.email,
+            message = contactInfo.message;
         
-        // submit info to be send
-        const form = await axios.post('http://localhost:5000/form-info', {
+        console.log('...before the await');
+
+        // submit info to be sent
+        const res = await axios.post('http://localhost:5000/form-info', {
             name,
             email,
             message
+        }).then((response) => {
+            console.log(response.status);
+        }).catch((error) => {
+            console.log('You got an error: ' + error);
+        }).finally(() => {
+            console.log('I believe this always runs!');
         });
+        
+        setContactInfo({...contactInfo, isSending: false});
+        // handleClearData();
+        console.log('...after the await');
     }
 
     // check if any fields are empty
     useEffect(() => {
         if (
-            contactInfo.firstName === '' ||
+            (contactInfo.firstName === '' ||
             contactInfo.lastName === '' ||
             contactInfo.email === '' ||
-            contactInfo.message === '' ) {
+            contactInfo.message === '') || contactInfo.isSending) {
                 setContactInfo({...contactInfo, isEmpty: true});
         } else {
             setContactInfo({...contactInfo, isEmpty: false});
         }
-    });
+    }, [contactInfo]);
 
     return (
         <div className="Contact" id="contact">
@@ -86,7 +100,7 @@ function Contact() {
                             <textarea type="text" name="message" placeholder="Message..." id="ContactTextArea" onChange={handleChange} value={contactInfo.message} />
                         </div>
                     </ScrollAnimation>
-                    <button className="ContactSubmit" type="submit" onClick={handleClearData} disabled={contactInfo.isEmpty}>Submit</button>
+                    <button className="ContactSubmit" type="submit" disabled={contactInfo.isEmpty}>Submit</button>
                 </form>
             </div>
         </div>
