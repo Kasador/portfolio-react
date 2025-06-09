@@ -16,9 +16,15 @@ function Projects() {
                     <i className="fas fa-chevron-circle-up"></i>
             </Link>
             <div className="BackTopSocials">
-                <i className="fab fa-instagram BackTopIcon BT1"></i>
-                <i className="fab fa-github BackTopIcon BT2"></i>
-                <i className="fab fa-linkedin BackTopIcon BT3"></i>
+                <a href="https://www.instagram.com/kas_ador/" target="_blank">
+                    <i className="fab fa-instagram BackTopIcon BT1"></i>
+                </a>
+                <a href="https://github.com/kasador" target="_blank">
+                    <i className="fab fa-github BackTopIcon BT2"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kasador/" target="_blank">
+                    <i className="fab fa-linkedin BackTopIcon BT3"></i>
+                </a>
             </div>
         </div>
     );

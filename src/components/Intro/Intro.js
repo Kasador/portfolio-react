@@ -1,6 +1,6 @@
 import React from 'react';
 import './Intro.css';
-import Me from '../../images/me_cartoon.jpg';
+import Me from '../../images/me_main.png';
 import Typewriter from 'typewriter-effect';
 import Socials from '../Socials/Socials';
 import { bounceInUp, bounceInDown } from 'react-animations';
@@ -15,7 +15,7 @@ function Intro() {
         <div className="Intro" id="home">
             <div className="IntroWrapper">
                 <BounceIn>
-                <img src={Me} alt="Me" className="Me" />
+                <img src={Me} alt="Hunter Shaw" className="Me" />
                 </BounceIn>
                 <div className="TypeEffect">
                     <Typewriter

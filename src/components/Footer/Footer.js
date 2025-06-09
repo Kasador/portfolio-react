@@ -8,7 +8,7 @@ function Footer() {
         <div className="Footer">
             <BackTop />
             <img src={FooterImg} alt="footer banner" className="FooterBanner" />
-            <span className="FooterText"> Copyright &copy; {new Date().getFullYear()} | H. Steven Shaw</span>
+            <span className="FooterText"> Copyright &copy; {new Date().getFullYear()} | Hunter S. Shaw</span>
         </div>
     );
 }

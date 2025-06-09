@@ -9,9 +9,15 @@ function Socials() {
     return (
         <div className="Socials">
             <BounceIn>
-                <i className="fab fa-instagram Icon"></i>
-                <i className="fab fa-github Icon"></i>
-                <i className="fab fa-linkedin Icon"></i>
+                <a href="https://www.instagram.com/kas_ador/" target="_blank">
+                    <i className="fab fa-instagram Icon"></i>
+                </a>
+                <a href="https://github.com/kasador" target="_blank">
+                    <i className="fab fa-github Icon"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kasador/" target="_blank">
+                    <i className="fab fa-linkedin Icon"></i>
+                </a>                    
             </BounceIn>
         </div>  
     );
