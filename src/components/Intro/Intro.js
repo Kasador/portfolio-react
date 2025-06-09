@@ -23,7 +23,7 @@ function Intro() {
                             typewriter.typeString('Hello...')
                             .pauseFor(1000)
                             .deleteAll()
-                            .typeString("I'm Steven.")
+                            .typeString("I'm Hunter.")
                             .start();
                         }}
                         />
