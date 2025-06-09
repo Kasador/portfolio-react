@@ -240,6 +240,7 @@
 @media only screen and (max-width: 650px) {
     .ProjectsHeaders {
         width: 40%;
+        font-size: 2.5rem;
     }
     .ProjectsText {
         font-size: 1.3rem;
