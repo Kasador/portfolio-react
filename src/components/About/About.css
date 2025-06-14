@@ -40,7 +40,8 @@
 }
 .AboutIcons {
     margin: 5px;
-    width: 275px;
+    width: 200px;
+    border-radius: 10px;
 
     -webkit-transition: all 0.3s;
 
